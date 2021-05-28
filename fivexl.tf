@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "" #Ваши credentials
-  secret_key = "" #Ваши credentials
+  access_key = "" 
+  secret_key = ""
   region     = "eu-central-1"
 }
 
