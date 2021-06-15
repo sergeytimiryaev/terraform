@@ -32,7 +32,7 @@ resource "aws_instance" "ubuntu" {
 sudo su
 apt-get update
 apt-get install nginx -y
-echo "<h1>Summer practice 2021<br>Timiryaev Sergey</h1> <br> <h2> for FivexL</h2>" > /var/www/html/index.html
+echo "<h1>Timiryaev Sergey</h1> <br> <h2>aws web-server</h2>" > /var/www/html/index.html
 systemctl enable nginx.service
 EOF
 
